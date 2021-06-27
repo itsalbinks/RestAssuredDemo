@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-27T14:09:39 IST" name="Default suite" finished-at="2021-06-27T14:09:44 IST" duration-ms="4940">
+    <groups>
+    </groups>
+    <test started-at="2021-06-27T14:09:39 IST" name="Default test" finished-at="2021-06-27T14:09:44 IST" duration-ms="4940">
+      <class name="com.serialize.test.RestApiTest">
+        <test-method signature="createResource(java.lang.String, java.lang.String, int)[pri:0, instance:com.serialize.test.RestApiTest@1356d4d4]" started-at="2021-06-27T14:09:39 IST" name="createResource" data-provider="resourceData" finished-at="2021-06-27T14:09:42 IST" duration-ms="2515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mercedes benz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[G-Wagon]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createResource -->
+        <test-method signature="createResource(java.lang.String, java.lang.String, int)[pri:0, instance:com.serialize.test.RestApiTest@1356d4d4]" started-at="2021-06-27T14:09:42 IST" name="createResource" data-provider="resourceData" finished-at="2021-06-27T14:09:43 IST" duration-ms="664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lamborghini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aventador]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createResource -->
+        <test-method signature="deleteResource()[pri:0, instance:com.serialize.test.RestApiTest@1356d4d4]" started-at="2021-06-27T14:09:43 IST" name="deleteResource" finished-at="2021-06-27T14:09:44 IST" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteResource -->
+      </class> <!-- com.serialize.test.RestApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
